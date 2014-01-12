@@ -7,7 +7,7 @@ var createJadePreprocessor = function(logger, basePath) {
     var processed = null;
 
     log.debug('Processing "%s".', file.originalPath);
-    file.path = file.originalPath.replace(/\.jade$/, '.html');
+//    file.path = file.originalPath.replace(/\.jade$/, '.html');
 
     var templateName = file.originalPath.replace(/^.*\/([^\/]+)\.jade$/, '$1');
 
